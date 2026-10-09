@@ -5,8 +5,17 @@
 #Asignar nombre a los dispositivos con tus iniciales al final
 cisco
 ```
+Switch(config)#hostname SW-Core-ABLQ
+SW-Core-ABLQ(config)#end
+SW-Core-ABLQ#
+
 Switch# configure
 Switch(config)# hostname SW-Lab1-ABLQ
 SW-Lab1-ABLQ(config)# end
 SW-Lab1-ABLQ#
+
+witch#confi
+Switch(config)#hostname SW-Lab2-ABLQ
+SW-Lab2-ABLQ(config)#END
+SW-Lab2-ABLQ#
 ```
