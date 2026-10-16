@@ -5,6 +5,11 @@
 #Asignar nombre a los dispositivos con tus iniciales al final
 cisco
 ```
+enable
+configure terminal
+hostname ABLQ
+copy running-config startup-config
+
 Switch(config)#hostname SW-Core-ABLQ
 SW-Core-ABLQ(config)#end
 SW-Core-ABLQ#
