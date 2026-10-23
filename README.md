@@ -50,3 +50,27 @@ Switch(config)#hostname SW-Lab2-ABLQ
 SW-Lab2-ABLQ(config)#END
 SW-Lab2-ABLQ#
 ```
+#Habilitar los enlaces troncales.
+enable
+configure terminal
+
+vlan 111
+ name NATIVA
+exit
+
+interface fastEthernet0/1
+ switchport mode trunk
+ switchport trunk native vlan 111
+ switchport trunk allowed vlan 10,20,30,99,111
+ no shutdown
+exit
+
+interface fastEthernet0/24
+ switchport mode trunk
+ switchport trunk native vlan 111
+ switchport trunk allowed vlan 10,20,30,99,111
+ no shutdown
+exit
+
+end
+copy running-config startup-config
