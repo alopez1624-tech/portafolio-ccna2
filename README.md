@@ -73,4 +73,4 @@ interface fastEthernet0/24
 exit
 
 end
-copy running-config startup-config
+copy running-config startup-config.
