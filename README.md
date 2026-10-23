@@ -50,6 +50,19 @@ Switch(config)#hostname SW-Lab2-ABLQ
 SW-Lab2-ABLQ(config)#END
 SW-Lab2-ABLQ#
 ```
+
+#Realizar las tareas de configuracion básica de sw y router (contraseñas), y mensaje del dia.
+
+```configure terminal
+enable secret cisco1232
+service password-encryption
+end
+copy running-config startup-config ´´´´
+
+
+
+
+
 #Habilitar los enlaces troncales.
 
 
@@ -76,3 +89,5 @@ exit
 
 end
 copy running-config startup-config ´´´
+
+
