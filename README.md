@@ -51,15 +51,14 @@ SW-Lab2-ABLQ(config)#END
 SW-Lab2-ABLQ#
 ```
 
-#Realizar las tareas de configuracion básica de sw y router (contraseñas), y mensaje del dia.
+#Realizar las tareas de configuracion básica de sw y router contraseñas.
 
 ```configure terminal
 enable secret cisco1232
 service password-encryption
 end
-copy running-config startup-config ´´´´
-
-
+copy running-config startup-config
+```
 
 
 
