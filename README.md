@@ -51,10 +51,12 @@ SW-Lab2-ABLQ(config)#END
 SW-Lab2-ABLQ#
 ```
 #Habilitar los enlaces troncales.
+
+
 enable
 configure terminal
 
-vlan 111
+```vlan 111
  name NATIVA
 exit
 
@@ -73,4 +75,4 @@ interface fastEthernet0/24
 exit
 
 end
-copy running-config startup-config.
+copy running-config startup-config ´´´
